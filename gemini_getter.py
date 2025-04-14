@@ -1,7 +1,7 @@
 from google import genai
 
 class geminiGetter:
-    key = 'AIzaSyAELG35lp-iSN4Olb0ZhjA8455ko9KAk4I'
+    key = '<<YOUR API KEY HERE>>'
     prompt = """Your task is to create flashcards from quizbowl questions I will provide. For each question, you need to identify individual clues and create a separate flashcard for each clue.
 
     Here are the important rules:

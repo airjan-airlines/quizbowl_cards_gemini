@@ -3,10 +3,10 @@ from gemini_getter import geminiGetter
 import datetime
 import time
 
-math_tossups = pd.read_csv('film_tossups.csv')
+math_tossups = pd.read_csv('<<QUESTION FILE NAME HERE>>.csv')
 gemini = geminiGetter()
 
-card_csv = open("ai_gen_film_4.csv","w")
+card_csv = open("<<NAME OF CSV YOU NEED TO WRITE TO>>.csv","w")
 
 def script(num):
 

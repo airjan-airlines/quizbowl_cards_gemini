@@ -37,5 +37,5 @@ def replace_dollars_with_newlines(csv_file_path):
         sys.exit(1)  # Use sys.exit() here as well.
 
 if __name__ == "__main__":
-    csv_file_path = "/Users/kamal/PycharmProjects/AI_generated_cards/ai_gen_film_4.csv" # Get the file path from the command line.
+    csv_file_path = "<<YOUR FILE HERE>>" # Get the file path from the command line.
     replace_dollars_with_newlines(csv_file_path)
